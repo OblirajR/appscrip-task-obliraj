@@ -2,6 +2,7 @@ import './Footer.css'
 import { CiInstagram } from "react-icons/ci";
 import { CiLinkedin } from "react-icons/ci";
 
+
 const Footer=()=>{
     return(
         <div className="footer-section">
