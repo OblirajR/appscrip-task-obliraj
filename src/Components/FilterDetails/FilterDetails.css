@@ -1,0 +1,27 @@
+.container-filter{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.container-filter div{
+    margin-top: 10px;
+}
+.minimise-section div{
+    display: flex;
+    margin: 0;
+}
+.unselect{
+    padding-bottom: 20px;
+    text-decoration: underline;
+    color: rgb(214, 206, 206);
+}
+.filter-heading{
+    font-weight: bold;
+}
+.filter-main-section{
+    display: flex;
+    justify-content: space-between;
+}
+.down-arrow{
+    cursor: pointer;
+}

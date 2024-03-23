@@ -1,0 +1,27 @@
+
+
+.Description-container h1{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 40px;
+}
+.Description-container{
+    width: 40%;
+    margin: 50px auto;
+    padding: 5px 10px;
+    font-family: "Inter";
+}
+.Description-container p{
+    font-size: 15px;
+    color: rgb(79, 75, 75);
+}
+
+@media screen and (max-width: 400px) {
+    .Description-container h1{
+      font-size: 20px;
+    }
+    .Description-container{
+        width: 90%;
+        margin: 10px auto;
+    }
+  }

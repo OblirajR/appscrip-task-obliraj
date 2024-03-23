@@ -1,0 +1,17 @@
+.filter-section{
+    width: 25%;
+    margin-right: 20px;
+}
+.filter-section input{
+    margin-bottom: 20px;
+}
+
+.customizable{
+    font-weight: bold;
+}
+
+@media screen and (max-width:400px) {
+    .filter-section{
+        width: 100%;
+    }
+}

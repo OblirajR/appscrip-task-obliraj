@@ -1,0 +1,65 @@
+.footer-section{
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+.footer-one, .footer-two{
+    display: flex;
+    flex-direction: row;
+}
+.subscribe{
+    width: 60%;
+    text-align: left;
+}
+.contactus{
+    width: 40%;
+    text-align: left;
+}
+.footer-heading{
+    text-transform: uppercase;
+}
+.subscribe-input{
+    width: 200px;
+    height: 30px;
+    display: flex;
+    margin: 50px 0;
+}
+.subscribe-input input{
+    padding: 0 80px 0 10px;
+}
+.subscribe-input button{
+    margin: 0 10px;
+    background-color: black;
+    border: 1px solid gray;
+    color: gray;
+    padding: 0 20px;
+}
+.footer-section p{
+    font-size: 12px;
+    color: rgb(197, 194, 194);
+}
+.footer-seperator{
+    width: 90%;
+    height: 1px;
+    margin: 0 auto;
+    background-color: gray;
+    margin: 20px 0;
+}
+.metta-muse, .quick-links, .follow-us{
+    width: 33%;
+    text-align: left;
+}
+
+@media screen and (max-width:400px) {
+    .footer-one, .footer-two{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-section{
+        padding: 10px;
+        width: 100%;
+    }
+    .contactus, .subscribe{
+        width: 100%;
+    }
+}
